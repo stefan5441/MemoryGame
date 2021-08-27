@@ -31,5 +31,10 @@ namespace MemoryGame
         {
             new memoryHard().Show();
         }
+
+        private void btnQuit_Click(object sender, EventArgs e)
+        {
+                Close();
+        }
     }
 }

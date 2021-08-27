@@ -32,7 +32,7 @@ namespace MemoryGame
             this.btnEasy = new System.Windows.Forms.Button();
             this.btnMedium = new System.Windows.Forms.Button();
             this.btnHard = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btnQuit = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnEasy
@@ -65,21 +65,22 @@ namespace MemoryGame
             this.btnHard.UseVisualStyleBackColor = true;
             this.btnHard.Click += new System.EventHandler(this.btnHard_Click);
             // 
-            // button1
+            // btnQuit
             // 
-            this.button1.Location = new System.Drawing.Point(682, 398);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 29);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Quit";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnQuit.Location = new System.Drawing.Point(682, 398);
+            this.btnQuit.Name = "btnQuit";
+            this.btnQuit.Size = new System.Drawing.Size(94, 29);
+            this.btnQuit.TabIndex = 3;
+            this.btnQuit.Text = "Quit";
+            this.btnQuit.UseVisualStyleBackColor = true;
+            this.btnQuit.Click += new System.EventHandler(this.btnQuit_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnQuit);
             this.Controls.Add(this.btnHard);
             this.Controls.Add(this.btnMedium);
             this.Controls.Add(this.btnEasy);
@@ -94,7 +95,7 @@ namespace MemoryGame
         private System.Windows.Forms.Button btnEasy;
         private System.Windows.Forms.Button btnMedium;
         private System.Windows.Forms.Button btnHard;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnQuit;
     }
 }
 
