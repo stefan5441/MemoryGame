@@ -36,7 +36,7 @@ namespace MemoryGame
             if (clickedLabel == null)
                 return;
 
-            if (clickedLabel.ForeColor == Color.Black)
+            if (clickedLabel.ForeColor == Color.GhostWhite)
                 return;
 
             if (firstClicked == null)
