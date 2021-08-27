@@ -85,6 +85,11 @@ namespace MemoryGame
             secondClicked = null;
         }
 
+        private void memoryEasy_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void AssignIcons()
         {
             Label label;

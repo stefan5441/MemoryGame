@@ -308,6 +308,7 @@ namespace MemoryGame
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "memoryEasy";
             this.Text = "memoryEasy";
+            this.Load += new System.EventHandler(this.memoryEasy_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 

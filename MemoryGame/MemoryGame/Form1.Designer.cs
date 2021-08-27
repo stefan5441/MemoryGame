@@ -37,7 +37,7 @@ namespace MemoryGame
             // 
             // btnEasy
             // 
-            this.btnEasy.Location = new System.Drawing.Point(252, 112);
+            this.btnEasy.Location = new System.Drawing.Point(283, 62);
             this.btnEasy.Name = "btnEasy";
             this.btnEasy.Size = new System.Drawing.Size(94, 29);
             this.btnEasy.TabIndex = 0;
@@ -47,7 +47,7 @@ namespace MemoryGame
             // 
             // btnMedium
             // 
-            this.btnMedium.Location = new System.Drawing.Point(193, 198);
+            this.btnMedium.Location = new System.Drawing.Point(283, 150);
             this.btnMedium.Name = "btnMedium";
             this.btnMedium.Size = new System.Drawing.Size(94, 29);
             this.btnMedium.TabIndex = 1;
@@ -57,7 +57,7 @@ namespace MemoryGame
             // 
             // btnHard
             // 
-            this.btnHard.Location = new System.Drawing.Point(353, 211);
+            this.btnHard.Location = new System.Drawing.Point(283, 255);
             this.btnHard.Name = "btnHard";
             this.btnHard.Size = new System.Drawing.Size(94, 29);
             this.btnHard.TabIndex = 2;
