@@ -30,6 +30,8 @@ namespace MemoryGame
         private void InitializeComponent()
         {
             this.btnEasy = new System.Windows.Forms.Button();
+            this.btnMedium = new System.Windows.Forms.Button();
+            this.btnHard = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnEasy
@@ -42,11 +44,33 @@ namespace MemoryGame
             this.btnEasy.UseVisualStyleBackColor = true;
             this.btnEasy.Click += new System.EventHandler(this.btnEasy_Click);
             // 
+            // btnMedium
+            // 
+            this.btnMedium.Location = new System.Drawing.Point(193, 198);
+            this.btnMedium.Name = "btnMedium";
+            this.btnMedium.Size = new System.Drawing.Size(94, 29);
+            this.btnMedium.TabIndex = 1;
+            this.btnMedium.Text = "Medium";
+            this.btnMedium.UseVisualStyleBackColor = true;
+            this.btnMedium.Click += new System.EventHandler(this.btnMedium_Click);
+            // 
+            // btnHard
+            // 
+            this.btnHard.Location = new System.Drawing.Point(353, 211);
+            this.btnHard.Name = "btnHard";
+            this.btnHard.Size = new System.Drawing.Size(94, 29);
+            this.btnHard.TabIndex = 2;
+            this.btnHard.Text = "Hard";
+            this.btnHard.UseVisualStyleBackColor = true;
+            this.btnHard.Click += new System.EventHandler(this.btnHard_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnHard);
+            this.Controls.Add(this.btnMedium);
             this.Controls.Add(this.btnEasy);
             this.Name = "Form1";
             this.Text = "Form1";
@@ -57,6 +81,8 @@ namespace MemoryGame
         #endregion
 
         private System.Windows.Forms.Button btnEasy;
+        private System.Windows.Forms.Button btnMedium;
+        private System.Windows.Forms.Button btnHard;
     }
 }
 

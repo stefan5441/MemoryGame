@@ -21,5 +21,15 @@ namespace MemoryGame
         {
             new memoryEasy().Show();
         }
+
+        private void btnMedium_Click(object sender, EventArgs e)
+        {
+            new memoryMedium().Show();
+        }
+
+        private void btnHard_Click(object sender, EventArgs e)
+        {
+            new memoryHard().Show();
+        }
     }
 }
