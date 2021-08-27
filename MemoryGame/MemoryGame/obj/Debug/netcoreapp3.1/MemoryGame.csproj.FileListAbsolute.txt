@@ -1,0 +1,16 @@
+C:\Users\stefa\Code\MemoryGame\MemoryGame\MemoryGame\bin\Debug\netcoreapp3.1\MemoryGame.exe
+C:\Users\stefa\Code\MemoryGame\MemoryGame\MemoryGame\bin\Debug\netcoreapp3.1\MemoryGame.deps.json
+C:\Users\stefa\Code\MemoryGame\MemoryGame\MemoryGame\bin\Debug\netcoreapp3.1\MemoryGame.runtimeconfig.json
+C:\Users\stefa\Code\MemoryGame\MemoryGame\MemoryGame\bin\Debug\netcoreapp3.1\MemoryGame.runtimeconfig.dev.json
+C:\Users\stefa\Code\MemoryGame\MemoryGame\MemoryGame\bin\Debug\netcoreapp3.1\MemoryGame.dll
+C:\Users\stefa\Code\MemoryGame\MemoryGame\MemoryGame\bin\Debug\netcoreapp3.1\MemoryGame.pdb
+C:\Users\stefa\Code\MemoryGame\MemoryGame\MemoryGame\obj\Debug\netcoreapp3.1\MemoryGame.csprojAssemblyReference.cache
+C:\Users\stefa\Code\MemoryGame\MemoryGame\MemoryGame\obj\Debug\netcoreapp3.1\MemoryGame.Form1.resources
+C:\Users\stefa\Code\MemoryGame\MemoryGame\MemoryGame\obj\Debug\netcoreapp3.1\MemoryGame.memoryEasy.resources
+C:\Users\stefa\Code\MemoryGame\MemoryGame\MemoryGame\obj\Debug\netcoreapp3.1\MemoryGame.csproj.GenerateResource.cache
+C:\Users\stefa\Code\MemoryGame\MemoryGame\MemoryGame\obj\Debug\netcoreapp3.1\MemoryGame.AssemblyInfoInputs.cache
+C:\Users\stefa\Code\MemoryGame\MemoryGame\MemoryGame\obj\Debug\netcoreapp3.1\MemoryGame.AssemblyInfo.cs
+C:\Users\stefa\Code\MemoryGame\MemoryGame\MemoryGame\obj\Debug\netcoreapp3.1\MemoryGame.csproj.CoreCompileInputs.cache
+C:\Users\stefa\Code\MemoryGame\MemoryGame\MemoryGame\obj\Debug\netcoreapp3.1\MemoryGame.dll
+C:\Users\stefa\Code\MemoryGame\MemoryGame\MemoryGame\obj\Debug\netcoreapp3.1\MemoryGame.pdb
+C:\Users\stefa\Code\MemoryGame\MemoryGame\MemoryGame\obj\Debug\netcoreapp3.1\MemoryGame.genruntimeconfig.cache
