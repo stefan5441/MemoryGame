@@ -62,6 +62,16 @@ namespace MemoryGame
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.timer2 = new System.Windows.Forms.Timer(this.components);
+            this.lblTime = new System.Windows.Forms.Label();
+            this.lblScore = new System.Windows.Forms.Label();
+            this.lblHighscore = new System.Windows.Forms.Label();
+            this.btnJoker = new System.Windows.Forms.Button();
+            this.lblJoker = new System.Windows.Forms.Label();
+            this.btnStart = new System.Windows.Forms.Button();
+            this.btnReset = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.timer3 = new System.Windows.Forms.Timer(this.components);
+            this.timer4 = new System.Windows.Forms.Timer(this.components);
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -514,12 +524,102 @@ namespace MemoryGame
             this.timer2.Interval = 600;
             this.timer2.Tick += new System.EventHandler(this.timer2_Tick);
             // 
+            // lblTime
+            // 
+            this.lblTime.AutoSize = true;
+            this.lblTime.Location = new System.Drawing.Point(732, 62);
+            this.lblTime.Name = "lblTime";
+            this.lblTime.Size = new System.Drawing.Size(57, 20);
+            this.lblTime.TabIndex = 1;
+            this.lblTime.Text = "Time: 0";
+            // 
+            // lblScore
+            // 
+            this.lblScore.AutoSize = true;
+            this.lblScore.Location = new System.Drawing.Point(732, 111);
+            this.lblScore.Name = "lblScore";
+            this.lblScore.Size = new System.Drawing.Size(49, 20);
+            this.lblScore.TabIndex = 2;
+            this.lblScore.Text = "Score:";
+            // 
+            // lblHighscore
+            // 
+            this.lblHighscore.AutoSize = true;
+            this.lblHighscore.Location = new System.Drawing.Point(732, 165);
+            this.lblHighscore.Name = "lblHighscore";
+            this.lblHighscore.Size = new System.Drawing.Size(79, 20);
+            this.lblHighscore.TabIndex = 3;
+            this.lblHighscore.Text = "Highscore:";
+            // 
+            // btnJoker
+            // 
+            this.btnJoker.Enabled = false;
+            this.btnJoker.Location = new System.Drawing.Point(732, 267);
+            this.btnJoker.Name = "btnJoker";
+            this.btnJoker.Size = new System.Drawing.Size(137, 29);
+            this.btnJoker.TabIndex = 4;
+            this.btnJoker.Text = "Joker";
+            this.btnJoker.UseVisualStyleBackColor = true;
+            this.btnJoker.Click += new System.EventHandler(this.btnJoker_Click);
+            // 
+            // lblJoker
+            // 
+            this.lblJoker.AutoSize = true;
+            this.lblJoker.Location = new System.Drawing.Point(760, 299);
+            this.lblJoker.Name = "lblJoker";
+            this.lblJoker.Size = new System.Drawing.Size(90, 20);
+            this.lblJoker.TabIndex = 5;
+            this.lblJoker.Text = "Jokers left: 3";
+            // 
+            // btnStart
+            // 
+            this.btnStart.Location = new System.Drawing.Point(742, 386);
+            this.btnStart.Name = "btnStart";
+            this.btnStart.Size = new System.Drawing.Size(127, 29);
+            this.btnStart.TabIndex = 6;
+            this.btnStart.Text = "Start";
+            this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
+            // 
+            // btnReset
+            // 
+            this.btnReset.Enabled = false;
+            this.btnReset.Location = new System.Drawing.Point(742, 455);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(127, 29);
+            this.btnReset.TabIndex = 7;
+            this.btnReset.Text = "Reset";
+            this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
+            // 
+            // timer1
+            // 
+            this.timer1.Interval = 1000;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // timer3
+            // 
+            this.timer3.Interval = 600;
+            this.timer3.Tick += new System.EventHandler(this.timer3_Tick);
+            // 
+            // timer4
+            // 
+            this.timer4.Interval = 600;
+            this.timer4.Tick += new System.EventHandler(this.timer4_Tick);
+            // 
             // memoryMedium
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.GrayText;
             this.ClientSize = new System.Drawing.Size(897, 532);
+            this.Controls.Add(this.btnReset);
+            this.Controls.Add(this.btnStart);
+            this.Controls.Add(this.lblJoker);
+            this.Controls.Add(this.btnJoker);
+            this.Controls.Add(this.lblHighscore);
+            this.Controls.Add(this.lblScore);
+            this.Controls.Add(this.lblTime);
             this.Controls.Add(this.tableLayoutPanel1);
             this.ForeColor = System.Drawing.Color.Orange;
             this.Name = "memoryMedium";
@@ -528,6 +628,7 @@ namespace MemoryGame
             this.Click += new System.EventHandler(this.label_click);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -566,5 +667,15 @@ namespace MemoryGame
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Timer timer2;
+        private System.Windows.Forms.Label lblTime;
+        private System.Windows.Forms.Label lblScore;
+        private System.Windows.Forms.Label lblHighscore;
+        private System.Windows.Forms.Button btnJoker;
+        private System.Windows.Forms.Label lblJoker;
+        private System.Windows.Forms.Button btnStart;
+        private System.Windows.Forms.Button btnReset;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer timer3;
+        private System.Windows.Forms.Timer timer4;
     }
 }
