@@ -83,7 +83,8 @@ namespace MemoryGame
             }
 
             if (time < 150)
-                score += (150 - time) * 10 + 200;
+                score += (150 - time) * 10;
+            score += 200;
             lblScore.Text = "Score: " + score.ToString();
             timer1.Stop();
             btnJoker.Enabled = false;
