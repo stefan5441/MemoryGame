@@ -15,7 +15,6 @@ C:\Users\stefa\Code\MemoryGame\MemoryGame\MemoryGame\obj\Debug\netcoreapp3.1\Mem
 C:\Users\stefa\Code\MemoryGame\MemoryGame\MemoryGame\obj\Debug\netcoreapp3.1\MemoryGame.pdb
 C:\Users\stefa\Code\MemoryGame\MemoryGame\MemoryGame\obj\Debug\netcoreapp3.1\MemoryGame.genruntimeconfig.cache
 <<<<<<< Updated upstream
-<<<<<<< Updated upstream
 C:\Users\user\Documents\GitHub\MemoryGame\MemoryGame\MemoryGame\bin\Debug\netcoreapp3.1\MemoryGame.exe
 C:\Users\user\Documents\GitHub\MemoryGame\MemoryGame\MemoryGame\bin\Debug\netcoreapp3.1\MemoryGame.deps.json
 C:\Users\user\Documents\GitHub\MemoryGame\MemoryGame\MemoryGame\bin\Debug\netcoreapp3.1\MemoryGame.runtimeconfig.json
@@ -38,7 +37,4 @@ C:\Users\user\Documents\GitHub\MemoryGame\MemoryGame\MemoryGame\obj\Debug\netcor
 C:\Users\stefa\Code\MemoryGame\MemoryGame\MemoryGame\obj\Debug\netcoreapp3.1\MemoryGame.memoryHard.resources
 C:\Users\stefa\Code\MemoryGame\MemoryGame\MemoryGame\obj\Debug\netcoreapp3.1\MemoryGame.memoryMedium.resources
 >>>>>>> Stashed changes
-=======
-C:\Users\stefa\Code\MemoryGame\MemoryGame\MemoryGame\obj\Debug\netcoreapp3.1\MemoryGame.memoryHard.resources
-C:\Users\stefa\Code\MemoryGame\MemoryGame\MemoryGame\obj\Debug\netcoreapp3.1\MemoryGame.memoryMedium.resources
->>>>>>> Stashed changes
+C:\Users\stefa\Code\MemoryGame\MemoryGame\MemoryGame\obj\Debug\netcoreapp3.1\MemoryGame.Properties.Resources.resources
