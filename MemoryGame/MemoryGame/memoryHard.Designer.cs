@@ -30,6 +30,7 @@ namespace MemoryGame
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(memoryHard));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.label80 = new System.Windows.Forms.Label();
@@ -142,7 +143,7 @@ namespace MemoryGame
             // tableLayoutPanel2
             // 
             this.tableLayoutPanel2.BackColor = System.Drawing.Color.Firebrick;
-            this.tableLayoutPanel2.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.Inset;
+            this.tableLayoutPanel2.CellBorderStyle = System.Windows.Forms.TableLayoutPanelCellBorderStyle.InsetDouble;
             this.tableLayoutPanel2.ColumnCount = 7;
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 14.28571F));
@@ -203,7 +204,7 @@ namespace MemoryGame
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 16.66667F));
-            this.tableLayoutPanel2.Size = new System.Drawing.Size(875, 703);
+            this.tableLayoutPanel2.Size = new System.Drawing.Size(875, 522);
             this.tableLayoutPanel2.TabIndex = 1;
             // 
             // label80
@@ -211,9 +212,9 @@ namespace MemoryGame
             this.label80.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label80.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label80.ForeColor = System.Drawing.Color.Firebrick;
-            this.label80.Location = new System.Drawing.Point(749, 582);
+            this.label80.Location = new System.Drawing.Point(750, 433);
             this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(121, 119);
+            this.label80.Size = new System.Drawing.Size(119, 86);
             this.label80.TabIndex = 41;
             this.label80.Text = "c";
             this.label80.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -224,9 +225,9 @@ namespace MemoryGame
             this.label79.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label79.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label79.ForeColor = System.Drawing.Color.Firebrick;
-            this.label79.Location = new System.Drawing.Point(625, 582);
+            this.label79.Location = new System.Drawing.Point(626, 433);
             this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(116, 119);
+            this.label79.Size = new System.Drawing.Size(115, 86);
             this.label79.TabIndex = 40;
             this.label79.Text = "c";
             this.label79.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -237,9 +238,9 @@ namespace MemoryGame
             this.label78.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label78.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label78.ForeColor = System.Drawing.Color.Firebrick;
-            this.label78.Location = new System.Drawing.Point(501, 582);
+            this.label78.Location = new System.Drawing.Point(502, 433);
             this.label78.Name = "label78";
-            this.label78.Size = new System.Drawing.Size(116, 119);
+            this.label78.Size = new System.Drawing.Size(115, 86);
             this.label78.TabIndex = 39;
             this.label78.Text = "c";
             this.label78.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -250,9 +251,9 @@ namespace MemoryGame
             this.label77.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label77.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label77.ForeColor = System.Drawing.Color.Firebrick;
-            this.label77.Location = new System.Drawing.Point(377, 582);
+            this.label77.Location = new System.Drawing.Point(378, 433);
             this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(116, 119);
+            this.label77.Size = new System.Drawing.Size(115, 86);
             this.label77.TabIndex = 38;
             this.label77.Text = "c";
             this.label77.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -263,9 +264,9 @@ namespace MemoryGame
             this.label76.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label76.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label76.ForeColor = System.Drawing.Color.Firebrick;
-            this.label76.Location = new System.Drawing.Point(253, 582);
+            this.label76.Location = new System.Drawing.Point(254, 433);
             this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(116, 119);
+            this.label76.Size = new System.Drawing.Size(115, 86);
             this.label76.TabIndex = 37;
             this.label76.Text = "c";
             this.label76.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -276,9 +277,9 @@ namespace MemoryGame
             this.label75.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label75.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label75.ForeColor = System.Drawing.Color.Firebrick;
-            this.label75.Location = new System.Drawing.Point(129, 582);
+            this.label75.Location = new System.Drawing.Point(130, 433);
             this.label75.Name = "label75";
-            this.label75.Size = new System.Drawing.Size(116, 119);
+            this.label75.Size = new System.Drawing.Size(115, 86);
             this.label75.TabIndex = 36;
             this.label75.Text = "c";
             this.label75.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -289,9 +290,9 @@ namespace MemoryGame
             this.label74.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label74.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label74.ForeColor = System.Drawing.Color.Firebrick;
-            this.label74.Location = new System.Drawing.Point(5, 582);
+            this.label74.Location = new System.Drawing.Point(6, 433);
             this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(116, 119);
+            this.label74.Size = new System.Drawing.Size(115, 86);
             this.label74.TabIndex = 35;
             this.label74.Text = "c";
             this.label74.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -302,9 +303,9 @@ namespace MemoryGame
             this.label73.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label73.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label73.ForeColor = System.Drawing.Color.Firebrick;
-            this.label73.Location = new System.Drawing.Point(749, 466);
+            this.label73.Location = new System.Drawing.Point(750, 347);
             this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(121, 114);
+            this.label73.Size = new System.Drawing.Size(119, 83);
             this.label73.TabIndex = 34;
             this.label73.Text = "c";
             this.label73.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -315,9 +316,9 @@ namespace MemoryGame
             this.label72.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label72.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label72.ForeColor = System.Drawing.Color.Firebrick;
-            this.label72.Location = new System.Drawing.Point(625, 466);
+            this.label72.Location = new System.Drawing.Point(626, 347);
             this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(116, 114);
+            this.label72.Size = new System.Drawing.Size(115, 83);
             this.label72.TabIndex = 33;
             this.label72.Text = "c";
             this.label72.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -328,9 +329,9 @@ namespace MemoryGame
             this.label71.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label71.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label71.ForeColor = System.Drawing.Color.Firebrick;
-            this.label71.Location = new System.Drawing.Point(501, 466);
+            this.label71.Location = new System.Drawing.Point(502, 347);
             this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(116, 114);
+            this.label71.Size = new System.Drawing.Size(115, 83);
             this.label71.TabIndex = 32;
             this.label71.Text = "c";
             this.label71.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -341,9 +342,9 @@ namespace MemoryGame
             this.label70.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label70.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label70.ForeColor = System.Drawing.Color.Firebrick;
-            this.label70.Location = new System.Drawing.Point(377, 466);
+            this.label70.Location = new System.Drawing.Point(378, 347);
             this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(116, 114);
+            this.label70.Size = new System.Drawing.Size(115, 83);
             this.label70.TabIndex = 31;
             this.label70.Text = "c";
             this.label70.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -354,9 +355,9 @@ namespace MemoryGame
             this.label69.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label69.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label69.ForeColor = System.Drawing.Color.Firebrick;
-            this.label69.Location = new System.Drawing.Point(253, 466);
+            this.label69.Location = new System.Drawing.Point(254, 347);
             this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(116, 114);
+            this.label69.Size = new System.Drawing.Size(115, 83);
             this.label69.TabIndex = 30;
             this.label69.Text = "c";
             this.label69.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -367,9 +368,9 @@ namespace MemoryGame
             this.label68.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label68.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label68.ForeColor = System.Drawing.Color.Firebrick;
-            this.label68.Location = new System.Drawing.Point(129, 466);
+            this.label68.Location = new System.Drawing.Point(130, 347);
             this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(116, 114);
+            this.label68.Size = new System.Drawing.Size(115, 83);
             this.label68.TabIndex = 29;
             this.label68.Text = "c";
             this.label68.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -380,9 +381,9 @@ namespace MemoryGame
             this.label67.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label67.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label67.ForeColor = System.Drawing.Color.Firebrick;
-            this.label67.Location = new System.Drawing.Point(5, 466);
+            this.label67.Location = new System.Drawing.Point(6, 347);
             this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(116, 114);
+            this.label67.Size = new System.Drawing.Size(115, 83);
             this.label67.TabIndex = 28;
             this.label67.Text = "c";
             this.label67.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -393,9 +394,9 @@ namespace MemoryGame
             this.label66.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label66.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label66.ForeColor = System.Drawing.Color.Firebrick;
-            this.label66.Location = new System.Drawing.Point(749, 350);
+            this.label66.Location = new System.Drawing.Point(750, 261);
             this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(121, 114);
+            this.label66.Size = new System.Drawing.Size(119, 83);
             this.label66.TabIndex = 27;
             this.label66.Text = "c";
             this.label66.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -406,9 +407,9 @@ namespace MemoryGame
             this.label65.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label65.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label65.ForeColor = System.Drawing.Color.Firebrick;
-            this.label65.Location = new System.Drawing.Point(625, 350);
+            this.label65.Location = new System.Drawing.Point(626, 261);
             this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(116, 114);
+            this.label65.Size = new System.Drawing.Size(115, 83);
             this.label65.TabIndex = 26;
             this.label65.Text = "c";
             this.label65.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -419,9 +420,9 @@ namespace MemoryGame
             this.label64.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label64.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label64.ForeColor = System.Drawing.Color.Firebrick;
-            this.label64.Location = new System.Drawing.Point(501, 350);
+            this.label64.Location = new System.Drawing.Point(502, 261);
             this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(116, 114);
+            this.label64.Size = new System.Drawing.Size(115, 83);
             this.label64.TabIndex = 25;
             this.label64.Text = "c";
             this.label64.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -432,9 +433,9 @@ namespace MemoryGame
             this.label63.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label63.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label63.ForeColor = System.Drawing.Color.Firebrick;
-            this.label63.Location = new System.Drawing.Point(377, 350);
+            this.label63.Location = new System.Drawing.Point(378, 261);
             this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(116, 114);
+            this.label63.Size = new System.Drawing.Size(115, 83);
             this.label63.TabIndex = 24;
             this.label63.Text = "c";
             this.label63.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -445,9 +446,9 @@ namespace MemoryGame
             this.label62.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label62.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label62.ForeColor = System.Drawing.Color.Firebrick;
-            this.label62.Location = new System.Drawing.Point(253, 350);
+            this.label62.Location = new System.Drawing.Point(254, 261);
             this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(116, 114);
+            this.label62.Size = new System.Drawing.Size(115, 83);
             this.label62.TabIndex = 23;
             this.label62.Text = "c";
             this.label62.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -458,9 +459,9 @@ namespace MemoryGame
             this.label61.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label61.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label61.ForeColor = System.Drawing.Color.Firebrick;
-            this.label61.Location = new System.Drawing.Point(129, 350);
+            this.label61.Location = new System.Drawing.Point(130, 261);
             this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(116, 114);
+            this.label61.Size = new System.Drawing.Size(115, 83);
             this.label61.TabIndex = 22;
             this.label61.Text = "c";
             this.label61.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -471,9 +472,9 @@ namespace MemoryGame
             this.label60.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label60.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label60.ForeColor = System.Drawing.Color.Firebrick;
-            this.label60.Location = new System.Drawing.Point(5, 350);
+            this.label60.Location = new System.Drawing.Point(6, 261);
             this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(116, 114);
+            this.label60.Size = new System.Drawing.Size(115, 83);
             this.label60.TabIndex = 21;
             this.label60.Text = "c";
             this.label60.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -484,9 +485,9 @@ namespace MemoryGame
             this.label59.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label59.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label59.ForeColor = System.Drawing.Color.Firebrick;
-            this.label59.Location = new System.Drawing.Point(749, 234);
+            this.label59.Location = new System.Drawing.Point(750, 175);
             this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(121, 114);
+            this.label59.Size = new System.Drawing.Size(119, 83);
             this.label59.TabIndex = 20;
             this.label59.Text = "c";
             this.label59.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -497,9 +498,9 @@ namespace MemoryGame
             this.label58.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label58.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label58.ForeColor = System.Drawing.Color.Firebrick;
-            this.label58.Location = new System.Drawing.Point(625, 234);
+            this.label58.Location = new System.Drawing.Point(626, 175);
             this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(116, 114);
+            this.label58.Size = new System.Drawing.Size(115, 83);
             this.label58.TabIndex = 19;
             this.label58.Text = "c";
             this.label58.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -510,9 +511,9 @@ namespace MemoryGame
             this.label57.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label57.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label57.ForeColor = System.Drawing.Color.Firebrick;
-            this.label57.Location = new System.Drawing.Point(501, 234);
+            this.label57.Location = new System.Drawing.Point(502, 175);
             this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(116, 114);
+            this.label57.Size = new System.Drawing.Size(115, 83);
             this.label57.TabIndex = 18;
             this.label57.Text = "c";
             this.label57.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -523,9 +524,9 @@ namespace MemoryGame
             this.label56.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label56.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label56.ForeColor = System.Drawing.Color.Firebrick;
-            this.label56.Location = new System.Drawing.Point(377, 234);
+            this.label56.Location = new System.Drawing.Point(378, 175);
             this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(116, 114);
+            this.label56.Size = new System.Drawing.Size(115, 83);
             this.label56.TabIndex = 17;
             this.label56.Text = "c";
             this.label56.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -536,9 +537,9 @@ namespace MemoryGame
             this.label27.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label27.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label27.ForeColor = System.Drawing.Color.Firebrick;
-            this.label27.Location = new System.Drawing.Point(253, 234);
+            this.label27.Location = new System.Drawing.Point(254, 175);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(116, 114);
+            this.label27.Size = new System.Drawing.Size(115, 83);
             this.label27.TabIndex = 16;
             this.label27.Text = "c";
             this.label27.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -549,9 +550,9 @@ namespace MemoryGame
             this.label26.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label26.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label26.ForeColor = System.Drawing.Color.Firebrick;
-            this.label26.Location = new System.Drawing.Point(129, 234);
+            this.label26.Location = new System.Drawing.Point(130, 175);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(116, 114);
+            this.label26.Size = new System.Drawing.Size(115, 83);
             this.label26.TabIndex = 15;
             this.label26.Text = "c";
             this.label26.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -562,9 +563,9 @@ namespace MemoryGame
             this.label25.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label25.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label25.ForeColor = System.Drawing.Color.Firebrick;
-            this.label25.Location = new System.Drawing.Point(5, 234);
+            this.label25.Location = new System.Drawing.Point(6, 175);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(116, 114);
+            this.label25.Size = new System.Drawing.Size(115, 83);
             this.label25.TabIndex = 14;
             this.label25.Text = "c";
             this.label25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -575,9 +576,9 @@ namespace MemoryGame
             this.label24.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label24.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label24.ForeColor = System.Drawing.Color.Firebrick;
-            this.label24.Location = new System.Drawing.Point(749, 118);
+            this.label24.Location = new System.Drawing.Point(750, 89);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(121, 114);
+            this.label24.Size = new System.Drawing.Size(119, 83);
             this.label24.TabIndex = 13;
             this.label24.Text = "c";
             this.label24.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -588,9 +589,9 @@ namespace MemoryGame
             this.label23.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label23.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label23.ForeColor = System.Drawing.Color.Firebrick;
-            this.label23.Location = new System.Drawing.Point(625, 118);
+            this.label23.Location = new System.Drawing.Point(626, 89);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(116, 114);
+            this.label23.Size = new System.Drawing.Size(115, 83);
             this.label23.TabIndex = 12;
             this.label23.Text = "c";
             this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -601,9 +602,9 @@ namespace MemoryGame
             this.label22.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label22.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label22.ForeColor = System.Drawing.Color.Firebrick;
-            this.label22.Location = new System.Drawing.Point(501, 118);
+            this.label22.Location = new System.Drawing.Point(502, 89);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(116, 114);
+            this.label22.Size = new System.Drawing.Size(115, 83);
             this.label22.TabIndex = 11;
             this.label22.Text = "c";
             this.label22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -614,9 +615,9 @@ namespace MemoryGame
             this.label21.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label21.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label21.ForeColor = System.Drawing.Color.Firebrick;
-            this.label21.Location = new System.Drawing.Point(377, 118);
+            this.label21.Location = new System.Drawing.Point(378, 89);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(116, 114);
+            this.label21.Size = new System.Drawing.Size(115, 83);
             this.label21.TabIndex = 10;
             this.label21.Text = "c";
             this.label21.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -627,9 +628,9 @@ namespace MemoryGame
             this.label10.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label10.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label10.ForeColor = System.Drawing.Color.Firebrick;
-            this.label10.Location = new System.Drawing.Point(253, 118);
+            this.label10.Location = new System.Drawing.Point(254, 89);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(116, 114);
+            this.label10.Size = new System.Drawing.Size(115, 83);
             this.label10.TabIndex = 9;
             this.label10.Text = "c";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -640,9 +641,9 @@ namespace MemoryGame
             this.label9.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label9.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label9.ForeColor = System.Drawing.Color.Firebrick;
-            this.label9.Location = new System.Drawing.Point(129, 118);
+            this.label9.Location = new System.Drawing.Point(130, 89);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(116, 114);
+            this.label9.Size = new System.Drawing.Size(115, 83);
             this.label9.TabIndex = 8;
             this.label9.Text = "c";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -653,9 +654,9 @@ namespace MemoryGame
             this.label8.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label8.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label8.ForeColor = System.Drawing.Color.Firebrick;
-            this.label8.Location = new System.Drawing.Point(5, 118);
+            this.label8.Location = new System.Drawing.Point(6, 89);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(116, 114);
+            this.label8.Size = new System.Drawing.Size(115, 83);
             this.label8.TabIndex = 7;
             this.label8.Text = "c";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -666,9 +667,9 @@ namespace MemoryGame
             this.label7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label7.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label7.ForeColor = System.Drawing.Color.Firebrick;
-            this.label7.Location = new System.Drawing.Point(749, 2);
+            this.label7.Location = new System.Drawing.Point(750, 3);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(121, 114);
+            this.label7.Size = new System.Drawing.Size(119, 83);
             this.label7.TabIndex = 6;
             this.label7.Text = "c";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -679,9 +680,9 @@ namespace MemoryGame
             this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label6.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label6.ForeColor = System.Drawing.Color.Firebrick;
-            this.label6.Location = new System.Drawing.Point(625, 2);
+            this.label6.Location = new System.Drawing.Point(626, 3);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(116, 114);
+            this.label6.Size = new System.Drawing.Size(115, 83);
             this.label6.TabIndex = 5;
             this.label6.Text = "c";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -692,9 +693,9 @@ namespace MemoryGame
             this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label5.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label5.ForeColor = System.Drawing.Color.Firebrick;
-            this.label5.Location = new System.Drawing.Point(501, 2);
+            this.label5.Location = new System.Drawing.Point(502, 3);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(116, 114);
+            this.label5.Size = new System.Drawing.Size(115, 83);
             this.label5.TabIndex = 4;
             this.label5.Text = "c";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -705,9 +706,9 @@ namespace MemoryGame
             this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label4.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.Firebrick;
-            this.label4.Location = new System.Drawing.Point(377, 2);
+            this.label4.Location = new System.Drawing.Point(378, 3);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(116, 114);
+            this.label4.Size = new System.Drawing.Size(115, 83);
             this.label4.TabIndex = 3;
             this.label4.Text = "c";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -718,9 +719,9 @@ namespace MemoryGame
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label3.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.Firebrick;
-            this.label3.Location = new System.Drawing.Point(253, 2);
+            this.label3.Location = new System.Drawing.Point(254, 3);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(116, 114);
+            this.label3.Size = new System.Drawing.Size(115, 83);
             this.label3.TabIndex = 2;
             this.label3.Text = "c";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -731,9 +732,9 @@ namespace MemoryGame
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label2.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.Firebrick;
-            this.label2.Location = new System.Drawing.Point(129, 2);
+            this.label2.Location = new System.Drawing.Point(130, 3);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(116, 114);
+            this.label2.Size = new System.Drawing.Size(115, 83);
             this.label2.TabIndex = 1;
             this.label2.Text = "c";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -744,9 +745,9 @@ namespace MemoryGame
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label1.Font = new System.Drawing.Font("Webdings", 60F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.Firebrick;
-            this.label1.Location = new System.Drawing.Point(5, 2);
+            this.label1.Location = new System.Drawing.Point(6, 3);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(116, 114);
+            this.label1.Size = new System.Drawing.Size(115, 83);
             this.label1.TabIndex = 0;
             this.label1.Text = "c";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -1178,15 +1179,20 @@ namespace MemoryGame
             // lblTime
             // 
             this.lblTime.AutoSize = true;
-            this.lblTime.Location = new System.Drawing.Point(918, 45);
+            this.lblTime.BackColor = System.Drawing.SystemColors.ControlText;
+            this.lblTime.ForeColor = System.Drawing.Color.Red;
+            this.lblTime.Location = new System.Drawing.Point(918, 59);
             this.lblTime.Name = "lblTime";
             this.lblTime.Size = new System.Drawing.Size(57, 20);
             this.lblTime.TabIndex = 2;
-            this.lblTime.Text = "TIme: 0";
+            this.lblTime.Text = "Time: 0";
+            this.lblTime.Click += new System.EventHandler(this.lblTime_Click);
             // 
             // lblScore
             // 
             this.lblScore.AutoSize = true;
+            this.lblScore.BackColor = System.Drawing.SystemColors.ControlText;
+            this.lblScore.ForeColor = System.Drawing.Color.Red;
             this.lblScore.Location = new System.Drawing.Point(918, 118);
             this.lblScore.Name = "lblScore";
             this.lblScore.Size = new System.Drawing.Size(49, 20);
@@ -1196,7 +1202,9 @@ namespace MemoryGame
             // lblHighscore
             // 
             this.lblHighscore.AutoSize = true;
-            this.lblHighscore.Location = new System.Drawing.Point(918, 177);
+            this.lblHighscore.BackColor = System.Drawing.SystemColors.ControlText;
+            this.lblHighscore.ForeColor = System.Drawing.Color.Red;
+            this.lblHighscore.Location = new System.Drawing.Point(918, 152);
             this.lblHighscore.Name = "lblHighscore";
             this.lblHighscore.Size = new System.Drawing.Size(79, 20);
             this.lblHighscore.TabIndex = 4;
@@ -1204,19 +1212,23 @@ namespace MemoryGame
             // 
             // btnJoker
             // 
+            this.btnJoker.BackColor = System.Drawing.SystemColors.ControlText;
             this.btnJoker.Enabled = false;
-            this.btnJoker.Location = new System.Drawing.Point(918, 279);
+            this.btnJoker.ForeColor = System.Drawing.Color.Red;
+            this.btnJoker.Location = new System.Drawing.Point(918, 292);
             this.btnJoker.Name = "btnJoker";
             this.btnJoker.Size = new System.Drawing.Size(117, 29);
             this.btnJoker.TabIndex = 5;
             this.btnJoker.Text = "Joker";
-            this.btnJoker.UseVisualStyleBackColor = true;
+            this.btnJoker.UseVisualStyleBackColor = false;
             this.btnJoker.Click += new System.EventHandler(this.btnJoker_Click);
             // 
             // lblJokersLeft
             // 
             this.lblJokersLeft.AutoSize = true;
-            this.lblJokersLeft.Location = new System.Drawing.Point(933, 311);
+            this.lblJokersLeft.BackColor = System.Drawing.SystemColors.ControlText;
+            this.lblJokersLeft.ForeColor = System.Drawing.Color.Red;
+            this.lblJokersLeft.Location = new System.Drawing.Point(918, 324);
             this.lblJokersLeft.Name = "lblJokersLeft";
             this.lblJokersLeft.Size = new System.Drawing.Size(90, 20);
             this.lblJokersLeft.TabIndex = 6;
@@ -1224,23 +1236,27 @@ namespace MemoryGame
             // 
             // btnStart
             // 
+            this.btnStart.BackColor = System.Drawing.SystemColors.ControlText;
+            this.btnStart.ForeColor = System.Drawing.Color.Red;
             this.btnStart.Location = new System.Drawing.Point(918, 423);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(117, 29);
             this.btnStart.TabIndex = 7;
             this.btnStart.Text = "Start";
-            this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.UseVisualStyleBackColor = false;
             this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             // 
             // btnReset
             // 
+            this.btnReset.BackColor = System.Drawing.SystemColors.ControlText;
             this.btnReset.Enabled = false;
+            this.btnReset.ForeColor = System.Drawing.Color.Red;
             this.btnReset.Location = new System.Drawing.Point(918, 486);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(117, 29);
             this.btnReset.TabIndex = 8;
             this.btnReset.Text = "Reset";
-            this.btnReset.UseVisualStyleBackColor = true;
+            this.btnReset.UseVisualStyleBackColor = false;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // timer2
@@ -1262,7 +1278,8 @@ namespace MemoryGame
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1057, 703);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(1213, 522);
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.lblJokersLeft);
