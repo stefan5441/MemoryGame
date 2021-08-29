@@ -370,7 +370,7 @@ namespace MemoryGame
             // lblJokersLeft
             // 
             this.lblJokersLeft.AutoSize = true;
-            this.lblJokersLeft.Location = new System.Drawing.Point(683, 205);
+            this.lblJokersLeft.Location = new System.Drawing.Point(617, 205);
             this.lblJokersLeft.Name = "lblJokersLeft";
             this.lblJokersLeft.Size = new System.Drawing.Size(90, 20);
             this.lblJokersLeft.TabIndex = 5;
