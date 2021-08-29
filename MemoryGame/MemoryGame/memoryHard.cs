@@ -18,6 +18,7 @@ namespace MemoryGame
             "m", "m", ".", ".", "p", "p", "@", "@", "%", "%", "+", "+", "G", "G",
             "o", "o", "Y", "Y", "V", "V", "O", "O", "L", "L", "Z", "Z"
         };
+<<<<<<< Updated upstream
         List<string> iconsOpened = new List<string>();
 
         Label firstClicked, secondClicked;
@@ -25,6 +26,11 @@ namespace MemoryGame
         int time, jokersLeft, score, highscore = 0;
         bool gameOn = false;
 
+=======
+
+        Label firstClicked, secondClicked;
+
+>>>>>>> Stashed changes
         public memoryHard()
         {
             InitializeComponent();
@@ -33,10 +39,13 @@ namespace MemoryGame
 
         private void label_click(object sender, EventArgs e)
         {
+<<<<<<< Updated upstream
             if (!gameOn)
             {
                 return;
             }
+=======
+>>>>>>> Stashed changes
             if (firstClicked != null && secondClicked != null)
                 return;
 
@@ -57,23 +66,34 @@ namespace MemoryGame
 
             secondClicked = clickedLabel;
             secondClicked.ForeColor = Color.GhostWhite;
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
             CheckForWinner();
 
             if (firstClicked.Text == secondClicked.Text)
             {
+<<<<<<< Updated upstream
                 iconsOpened.Remove(firstClicked.Text.ToString());
                 if (iconsOpened.Count > 0)
                     score += 200;
                 lblScore.Text = "Score: " + score.ToString();
+=======
+>>>>>>> Stashed changes
                 firstClicked = null;
                 secondClicked = null;
             }
             else
+<<<<<<< Updated upstream
             {
                 score -= 10;
                 lblScore.Text = "Score: " + score.ToString();
                 timer1.Start();
             }
+=======
+                timer1.Start();
+>>>>>>> Stashed changes
         }
 
         private void CheckForWinner()
@@ -87,6 +107,7 @@ namespace MemoryGame
                     return;
             }
 
+<<<<<<< Updated upstream
             if (time < 250)
                 score += (250 - time) * 10;
             score += 200;
@@ -101,6 +122,10 @@ namespace MemoryGame
             }
             else
                 MessageBox.Show("You won! Your score is " + score.ToString() + "!");
+=======
+            MessageBox.Show("You won!");
+            Close();
+>>>>>>> Stashed changes
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -114,6 +139,7 @@ namespace MemoryGame
             secondClicked = null;
         }
 
+<<<<<<< Updated upstream
         private void timer2_Tick(object sender, EventArgs e)
         {
             time++;
@@ -198,12 +224,17 @@ namespace MemoryGame
             lblTime.Text = "Time: 0";
         }
 
+=======
+>>>>>>> Stashed changes
         private void AssignIcons()
         {
             Label label;
             int randomNumber;
+<<<<<<< Updated upstream
             if (icons.Count == 0)
                 addItems();
+=======
+>>>>>>> Stashed changes
             for (int i = 0; i < tableLayoutPanel2.Controls.Count; i++)
             {
                 if (tableLayoutPanel2.Controls[i] is Label)
@@ -215,6 +246,7 @@ namespace MemoryGame
 
                 icons.RemoveAt(randomNumber);
             }
+<<<<<<< Updated upstream
             addIconsOpened();
             jokersLeft = 3;
             lblJokersLeft.Text = "Jokers left: " + jokersLeft.ToString();
@@ -291,6 +323,8 @@ namespace MemoryGame
             iconsOpened.Add("O");
             iconsOpened.Add("L");
             iconsOpened.Add("Z");
+=======
+>>>>>>> Stashed changes
         }
     }
 }

@@ -113,6 +113,7 @@ namespace MemoryGame
             this.label54 = new System.Windows.Forms.Label();
             this.label55 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+<<<<<<< Updated upstream
             this.lblTime = new System.Windows.Forms.Label();
             this.lblScore = new System.Windows.Forms.Label();
             this.lblHighscore = new System.Windows.Forms.Label();
@@ -123,6 +124,8 @@ namespace MemoryGame
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.timer3 = new System.Windows.Forms.Timer(this.components);
             this.timer4 = new System.Windows.Forms.Timer(this.components);
+=======
+>>>>>>> Stashed changes
             this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -1175,6 +1178,7 @@ namespace MemoryGame
             this.timer1.Interval = 500;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+<<<<<<< Updated upstream
             // lblTime
             // 
             this.lblTime.AutoSize = true;
@@ -1258,11 +1262,14 @@ namespace MemoryGame
             this.timer4.Interval = 500;
             this.timer4.Tick += new System.EventHandler(this.timer4_Tick);
             // 
+=======
+>>>>>>> Stashed changes
             // memoryHard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1057, 703);
+<<<<<<< Updated upstream
             this.Controls.Add(this.btnReset);
             this.Controls.Add(this.btnStart);
             this.Controls.Add(this.lblJokersLeft);
@@ -1270,13 +1277,18 @@ namespace MemoryGame
             this.Controls.Add(this.lblHighscore);
             this.Controls.Add(this.lblScore);
             this.Controls.Add(this.lblTime);
+=======
+>>>>>>> Stashed changes
             this.Controls.Add(this.tableLayoutPanel2);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "memoryHard";
             this.Text = "memoryHard";
             this.tableLayoutPanel2.ResumeLayout(false);
             this.ResumeLayout(false);
+<<<<<<< Updated upstream
             this.PerformLayout();
+=======
+>>>>>>> Stashed changes
 
         }
 
@@ -1365,6 +1377,7 @@ namespace MemoryGame
         private System.Windows.Forms.Label label72;
         private System.Windows.Forms.Label label71;
         private System.Windows.Forms.Timer timer1;
+<<<<<<< Updated upstream
         private System.Windows.Forms.Label lblTime;
         private System.Windows.Forms.Label lblScore;
         private System.Windows.Forms.Label lblHighscore;
@@ -1375,5 +1388,7 @@ namespace MemoryGame
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.Timer timer3;
         private System.Windows.Forms.Timer timer4;
+=======
+>>>>>>> Stashed changes
     }
 }
