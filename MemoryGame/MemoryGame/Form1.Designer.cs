@@ -40,7 +40,7 @@ namespace MemoryGame
             // 
             this.btnEasy.BackColor = System.Drawing.Color.CornflowerBlue;
             this.btnEasy.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnEasy.Font = new System.Drawing.Font("Jokerman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnEasy.Font = new System.Drawing.Font("Kepler 296", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btnEasy.Location = new System.Drawing.Point(334, 161);
             this.btnEasy.Name = "btnEasy";
             this.btnEasy.Padding = new System.Windows.Forms.Padding(1);
@@ -54,7 +54,7 @@ namespace MemoryGame
             // 
             this.btnMedium.BackColor = System.Drawing.Color.Gold;
             this.btnMedium.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnMedium.Font = new System.Drawing.Font("Jokerman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnMedium.Font = new System.Drawing.Font("Kepler 296", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnMedium.Location = new System.Drawing.Point(334, 234);
             this.btnMedium.Name = "btnMedium";
             this.btnMedium.Padding = new System.Windows.Forms.Padding(1);
@@ -68,7 +68,7 @@ namespace MemoryGame
             // 
             this.btnHard.BackColor = System.Drawing.Color.DarkRed;
             this.btnHard.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnHard.Font = new System.Drawing.Font("Jokerman", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnHard.Font = new System.Drawing.Font("Kepler 296", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnHard.Location = new System.Drawing.Point(334, 316);
             this.btnHard.Name = "btnHard";
             this.btnHard.Size = new System.Drawing.Size(254, 57);
