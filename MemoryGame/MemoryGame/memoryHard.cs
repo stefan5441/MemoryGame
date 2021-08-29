@@ -204,6 +204,11 @@ namespace MemoryGame
             btnJoker.Enabled = true;
         }
 
+        private void lblTime_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void btnReset_Click(object sender, EventArgs e)
         {
             if (gameOn == false)
@@ -221,7 +226,7 @@ namespace MemoryGame
             AssignIcons();
             btnReset.Enabled = false;
             btnJoker.Enabled = false;
-            lblTime.Text = "Time: 0";
+            lblTime.Text = "Time: 0.00";
         }
 
 =======

@@ -12,14 +12,18 @@ namespace MemoryGame
 {
     public partial class Form1 : Form
     {
+        
+        
         public Form1()
         {
+          
             InitializeComponent();
         }
-
+        
         private void btnEasy_Click(object sender, EventArgs e)
         {
             new memoryEasy().Show();
+            
         }
 
         private void btnMedium_Click(object sender, EventArgs e)

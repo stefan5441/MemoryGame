@@ -168,7 +168,7 @@ namespace MemoryGame
             AssignIcons2();
             btnReset.Enabled = false;
             btnJoker.Enabled = false;
-            lblTime.Text = "Time: 0";
+            lblTime.Text = "Time: 0.00";
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -185,6 +185,11 @@ namespace MemoryGame
             {
                 l.ForeColor = l.BackColor;
             }
+        }
+
+        private void lblTime_Click(object sender, EventArgs e)
+        {
+
         }
 
         private void timer4_Tick(object sender, EventArgs e)
